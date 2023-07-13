@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("./assets/okeykat-LK9D0IE6IcI-unsplash.jpg");
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relogio-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+
+/* alinhamento dos numeros */
+.relogio-container .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* traços dos minutes */
+.relogio-container .number.number-1 {
+  --rotation: 30deg;
+}
+.relogio-container .number.pontinho-minutes1 {
+  --rotation: 7deg;
+}
+.relogio-container .number.pontinho-minutes2 {
+  --rotation: 12deg;
+}
+.relogio-container .number.pontinho-minutes3 {
+  --rotation: 18deg;
+}
+.relogio-container .number.pontinho-minutes4 {
+  --rotation: 24deg;
+}
+
+.relogio-container .number.number-2 {
+  --rotation: 60deg;
+}
+.relogio-container .number.pontinho-minutes5 {
+  --rotation: 36deg;
+}
+.relogio-container .number.pontinho-minutes6 {
+  --rotation: 42deg;
+}
+.relogio-container .number.pontinho-minutes7 {
+  --rotation: 48deg;
+}
+.relogio-container .number.pontinho-minutes8 {
+  --rotation: 54deg;
+}
+
+.relogio-container .number.number-3 {
+  --rotation: 90deg;
+}
+.relogio-container .number.pontinho-minutes9 {
+  --rotation: 66deg;
+}
+.relogio-container .number.pontinho-minutes10 {
+  --rotation: 72deg;
+}
+.relogio-container .number.pontinho-minutes11 {
+  --rotation: 78deg;
+}
+.relogio-container .number.pontinho-minutes12 {
+  --rotation: 84deg;
+}
+
+.relogio-container .number.number-4 {
+  --rotation: 120deg;
+}
+.relogio-container .number.pontinho-minutes13 {
+  --rotation: 96deg;
+}
+.relogio-container .number.pontinho-minutes14 {
+  --rotation: 102deg;
+}
+.relogio-container .number.pontinho-minutes15 {
+  --rotation: 108deg;
+}
+.relogio-container .number.pontinho-minutes16 {
+  --rotation: 114deg;
+}
+
+.relogio-container .number.number-5 {
+  --rotation: 150deg;
+}
+.relogio-container .number.pontinho-minutes17 {
+  --rotation: 126deg;
+}
+.relogio-container .number.pontinho-minutes18 {
+  --rotation: 132deg;
+}
+.relogio-container .number.pontinho-minutes19 {
+  --rotation: 138deg;
+}
+.relogio-container .number.pontinho-minutes20 {
+  --rotation: 144deg;
+}
+
+.relogio-container .number.number-6 {
+  --rotation: 180deg;
+}
+.relogio-container .number.pontinho-minutes21 {
+  --rotation: 156deg;
+}
+.relogio-container .number.pontinho-minutes22 {
+  --rotation: 162deg;
+}
+.relogio-container .number.pontinho-minutes23 {
+  --rotation: 168deg;
+}
+.relogio-container .number.pontinho-minutes24 {
+  --rotation: 174deg;
+}
+
+.relogio-container .number.number-7 {
+  --rotation: 210deg;
+}
+.relogio-container .number.pontinho-minutes25 {
+  --rotation: 186deg;
+}
+.relogio-container .number.pontinho-minutes26 {
+  --rotation: 192deg;
+}
+.relogio-container .number.pontinho-minutes27 {
+  --rotation: 198deg;
+}
+.relogio-container .number.pontinho-minutes28 {
+  --rotation: 204deg;
+}
+
+.relogio-container .number.number-8 {
+  --rotation: 240deg;
+}
+.relogio-container .number.pontinho-minutes29 {
+  --rotation: 216deg;
+}
+.relogio-container .number.pontinho-minutes30 {
+  --rotation: 222deg;
+}
+.relogio-container .number.pontinho-minutes31 {
+  --rotation: 228deg;
+}
+.relogio-container .number.pontinho-minutes32 {
+  --rotation: 234deg;
+}
+
+.relogio-container .number.number-9 {
+  --rotation: 270deg;
+}
+.relogio-container .number.pontinho-minutes33 {
+  --rotation: 246deg;
+}
+.relogio-container .number.pontinho-minutes34 {
+  --rotation: 252deg;
+}
+.relogio-container .number.pontinho-minutes35 {
+  --rotation: 258deg;
+}
+.relogio-container .number.pontinho-minutes36 {
+  --rotation: 264deg;
+}
+
+.relogio-container .number.number-10 {
+  --rotation: 300deg;
+}
+.relogio-container .number.pontinho-minutes37 {
+  --rotation: 276deg;
+}
+.relogio-container .number.pontinho-minutes38 {
+  --rotation: 282deg;
+}
+.relogio-container .number.pontinho-minutes39 {
+  --rotation: 288deg;
+}
+.relogio-container .number.pontinho-minutes40 {
+  --rotation: 294deg;
+}
+
+.relogio-container .number.number-11 {
+  --rotation: 330deg;
+}
+.relogio-container .number.pontinho-minutes41 {
+  --rotation: 306deg;
+}
+.relogio-container .number.pontinho-minutes42 {
+  --rotation: 312deg;
+}
+.relogio-container .number.pontinho-minutes43 {
+  --rotation: 318deg;
+}
+.relogio-container .number.pontinho-minutes44 {
+  --rotation: 324deg;
+}
+
+.relogio-container .number.number-12 {
+  --rotation: 360deg;
+}
+.relogio-container .number.pontinho-minutes45 {
+  --rotation: 336deg;
+}
+.relogio-container .number.pontinho-minutes46 {
+  --rotation: 342deg;
+}
+.relogio-container .number.pontinho-minutes47 {
+  --rotation: 348deg;
+}
+.relogio-container .number.pontinho-minutes48 {
+  --rotation: 354deg;
+}
+
+/* ponteiros  */
+
+.relogio-container::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  z-index: 12;
+  transform: translate(-50%, -50%);
+}
+
+.relogio-container .ponteiro {
+  /* ficará junto do relogiocontainer */
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+  transform-origin: bottom;
+  background-color: #000;
+  width: 8px;
+  height: 40%;
+  z-index: 10;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.relogio-container .ponteiro.seconds {
+  width: 3px;
+  height: 40%;
+  background-color: #ff0000;
+}
+
+.relogio-container .ponteiro.minutes {
+  width: 7px;
+  height: 35%;
+  background-color: #000;
+}
+
+.relogio-container .ponteiro.hours {
+  width: 10px;
+  height: 25%;
+  background-color: #000;
+}
+
+@media (max-width: 720px) {
+  .relogio-container {
+    width: 400px;
+    height: 400px;
+  }
+
+  .relogio-container .number {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 563px) {
+  .relogio-container {
+    width: 270px;
+    height: 270px;
+  }
+
+  .relogio-container .number {
+    font-size: 1.2rem;
+  }
+
+  .relogio-container .ponteiro.hours {
+    width: 6px;
+  }
+  .relogio-container .ponteiro.ponteiro.minutes {
+    width: 5px;
+  }
+
+  @media (max-width: 380px) {
+    .relogio-container {
+      width: 250px;
+      height: 250px;
+    }
+
+    .relogio-container .number {
+      font-size: 1.1rem;
+    }
+  }
+}
